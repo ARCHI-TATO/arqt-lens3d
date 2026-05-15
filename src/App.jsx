@@ -44,31 +44,63 @@ export default function App() {
 </div>
       </nav>
 
-      {/* HERO */}
-      <section className="h-screen flex flex-col justify-center items-center text-center px-6">
-        <p className="tracking-[10px] text-gray-500 mb-6">
-          LLEVA TU IDEA AL SIGUIENTE NIVEL
-        </p>
+     {/* HERO */}
 
-        <h2 className="text-7xl md:text-8xl font-extrabold max-w-5xl leading-tight">
-          Convierte tu diseño
-          <br />
-          en algo real.
-        </h2>
-
-        <p className="mt-10 text-gray-400 text-2xl max-w-3xl">
-          Desde llaveros personalizados hasta maquetas arquitectónicas
-          y productos exclusivos impresos en 3D.
-        </p>
-
-        <a
-  href="https://wa.me/51998508424"
-  target="_blank"
-  className="mt-12 bg-white text-black px-10 py-4 rounded-full text-xl font-semibold hover:bg-gray-300 transition inline-block"
+<section
+  className="min-h-screen text-white flex items-center justify-center text-center px-6 relative overflow-hidden"
+  style={{
+    backgroundImage: "url('/hero-bg.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
 >
-  Solicitar cotización
-</a>
-      </section>
+
+  {/* Overlay oscuro */}
+  <div className="absolute inset-0 bg-black/70"></div>
+
+  {/* Contenido */}
+  <div className="relative z-10 max-w-5xl">
+
+    <p className="tracking-[10px] text-gray-300 text-sm mb-8">
+      PRECISIÓN • DISEÑO • IMPRESIÓN 3D
+    </p>
+
+    <h1 className="text-6xl md:text-8xl font-black leading-tight mb-8">
+      Convierte tu diseño
+      <br />
+      en algo real.
+    </h1>
+
+    <p className="text-gray-300 text-xl max-w-3xl mx-auto mb-12 leading-relaxed">
+      Maquetas arquitectónicas, renders y productos impresos en 3D
+      con acabados premium y precisión profesional.
+    </p>
+
+    <div className="flex justify-center gap-6 flex-wrap">
+
+      <a
+        href="https://wa.me/51998508424"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white text-black px-10 py-5 rounded-full text-lg font-semibold hover:bg-gray-300 transition"
+      >
+        Solicitar cotización
+      </a>
+
+      <a
+        href="https://www.instagram.com/arqt_lens3d"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border border-white px-10 py-5 rounded-full text-lg hover:bg-white hover:text-black transition"
+      >
+        Ver Instagram
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* PROCESO */}
       <section className="bg-white text-black py-32 px-10">
