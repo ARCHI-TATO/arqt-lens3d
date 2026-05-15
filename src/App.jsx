@@ -33,9 +33,13 @@ export default function App() {
           y productos exclusivos impresos en 3D.
         </p>
 
-        <button className="mt-12 bg-white text-black px-10 py-4 rounded-full text-xl font-semibold hover:bg-gray-300 transition">
-          Solicitar cotización
-        </button>
+        <a
+  href="https://wa.me/51998508424"
+  target="_blank"
+  className="mt-12 bg-white text-black px-10 py-4 rounded-full text-xl font-semibold hover:bg-gray-300 transition inline-block"
+>
+  Solicitar cotización
+</a>
       </section>
 
       {/* PROCESO */}
