@@ -10,32 +10,34 @@ export default function App() {
 
         <div className="flex items-center gap-8">
 
-  <ul className="flex gap-8 text-lg">
-    <li>Inicio</li>
-    <li>Servicios</li>
-    <li>Portafolio</li>
-    <li>Contacto</li>
-  </ul>
+  <div className="flex items-center gap-8">
 
-  <div className="flex gap-5 text-sm text-gray-400">
+  <a
+    href="https://wa.me/51998508424"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-gray-300 transition"
+  >
+    Contacto
+  </a>
 
-    <a
-      href="https://www.instagram.com/arqt_lens3d?igsh=MTI4ZjN3YWUyc21vdg=="
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-white transition"
-    >
-      Instagram
-    </a>
+  <a
+    href="https://www.instagram.com/arqt_lens3d?igsh=MTI4ZjN3YWUyc21vdg=="
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-gray-300 transition"
+  >
+    Instagram
+  </a>
 
-    <a
-      href="https://www.tiktok.com/@arqtato?is_from_webapp=1&sender_device=pc"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-white transition"
-    >
-      TikTok
-    </a>
+  <a
+    href="https://www.tiktok.com/@arqtato?is_from_webapp=1&sender_device=pc"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-gray-300 transition"
+  >
+    TikTok
+  </a>
 
   </div>
 
